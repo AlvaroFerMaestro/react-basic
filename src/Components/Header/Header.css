@@ -1,0 +1,41 @@
+header{
+    background-color: white;
+    height: 10svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+nav{
+    width: 100%;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    width: 100%;
+}
+
+.active{
+    border-bottom: solid black;
+}
+
+header a {
+    color: black;
+}
+
+.Icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icono img{
+    width: 200px;
+    height: 100px;
+   /*  position: absolute;
+    top: -10px; */
+    
+}
